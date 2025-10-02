@@ -2,13 +2,14 @@
   
 *{
     font-family: "Poppins", sans-serif;
-    overflow-x: hidden;
-   overflow:hidden;
+    overflow-x: hidden !important;
+   box-sizing:border-box;
 }
 body{
     background-color: #000000;
-    overflow-x: hidden;
-  overflow:hidden;
+    overflow-x: hidden !important;
+  box-sizing:border-box;
+
 }
 
 .card{
@@ -38,5 +39,6 @@ body{
     padding: 2px;
     
 }
+
 
 
