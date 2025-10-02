@@ -1,7 +1,6 @@
 import './App.css'
 import Home from './home'
 import Navbar from './navbar'
-import Page from './page'
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <div className="block md:hidden">
         <Home />
         <Navbar />
-        <Page />
       </div>
     </>
   )
