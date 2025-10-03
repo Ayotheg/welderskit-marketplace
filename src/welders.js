@@ -1,5 +1,5 @@
-import awo from "./assets/image_fx.jpg"
-import john from "./assets/image_fx1.jpg"
+import awo from "./assets/Image_fx.jpg"
+import john from "./assets/Image_fx1.jpg"
 import ayo from "./assets/mr anony.jpg"
 
 
