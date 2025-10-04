@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Add this to your index.css or global.css */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
