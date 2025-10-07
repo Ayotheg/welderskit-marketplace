@@ -1,13 +1,17 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     import './navbar.css'
+import './navbar.css'
+
 function Navbar() {
   return (
-    <>
-      <div className="nav text-2xl text-black"></div>
-      <h2 className='text text-black text-2xl absolute'>WeldersKit Marketplace</h2>
+    <div className="navbar-wrapper">
+      {/* Orange Navbar Background */}
+      <div className="nav">
+        {/* WeldersKit Text */}
+        <h2 className='text text-black text-2xl'>WeldersKit Marketplace</h2>
+      </div>
       
-      {/* Scrolling Safety Warning */}
-      <div className="scrolling-container bg-[#ff6a0000] overflow-hidden z-999  relative bottom-347">
-        <div className="scrolling-text-animation text-white font-bold text-sm md:text-base whitespace-nowrap">
+      {/* Scrolling Safety Warning - Below the navbar */}
+      <div className="scrolling-container">
+        <div className="scrolling-text-animation">
           <span className="inline-block px-8">
             ⚠️ NEVER PAY IN ADVANCE TO WELDERS
           </span>
@@ -35,32 +39,7 @@ function Navbar() {
           </span>
         </div>
       </div>
-      
-      <style>{`
-        .scrolling-container {
-          position: relative;
-          width: 100%;
-        }
-        
-        .scrolling-text-animation {
-          display: inline-block;
-          animation: scroll-left 30s linear infinite;
-        }
-        
-        @keyframes scroll-left {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-        
-        .scrolling-container:hover .scrolling-text-animation {
-          animation-play-state: paused;
-        }
-      `}</style>
-    </>
+    </div>
   );
 }
 
