@@ -35,9 +35,11 @@
     width: 100vw;
 }
 
-.scrolling-container{
-    position: absolute;
-    top: -1385px;
+.scrolling-text-animation{
+    position: relative;
+    z-index: -1 !important;
+    top: 10px;
+    
     
 }
 
