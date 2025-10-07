@@ -12,7 +12,7 @@
 .text{
     top: 0;
     height: 70px;
-    background-color:#FF6B00;
+    background-color:#522200;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -38,7 +38,7 @@
 .scrolling-text-animation{
     position: relative;
     z-index: -1 !important;
-    top: 10px;
+    top: 1/50px;
     
     
 }
