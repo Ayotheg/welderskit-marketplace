@@ -1,5 +1,4 @@
-import './navbar.css'
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     import './navbar.css'
 function Navbar() {
   return (
     <>
@@ -7,7 +6,7 @@ function Navbar() {
       <h2 className='text text-black text-2xl absolute'>WeldersKit Marketplace</h2>
       
       {/* Scrolling Safety Warning */}
-      <div className="scrolling-container bg-[#ff6a0000] py-2 overflow-hidden z-999">
+      <div className="scrolling-container bg-[#ff6a0000] overflow-hidden z-999  relative bottom-347">
         <div className="scrolling-text-animation text-white font-bold text-sm md:text-base whitespace-nowrap">
           <span className="inline-block px-8">
             ⚠️ NEVER PAY IN ADVANCE TO WELDERS
