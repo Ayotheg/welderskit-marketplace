@@ -1,11 +1,13 @@
 import './home.css'
 import { welders } from './welders' 
 
-
-function WelderCard({ name, bio, image, phone, award }) {
+function WelderCard({ name, bio, image, phone, award, report }) {
   return (
     <div className="bg-black border-2 border-[#ffb000] rounded-3xl p-6 shadow-2xl shadow-[#ffb000]/20 hover:shadow-[#ffb000]/40 transition-all duration-300 mt-9">
       {/* Circular Image with Gradient Border */}
+       <p className="text-center text-sm font-normal report px-5 text-red-500">
+         <a href="http://www.google.com">Report</a> 
+        </p>
       <div className="flex justify-center mb-5">
         <div className="relative">
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#ffb000] via-orange-500 to-red-500 p-1 animate-pulse">
@@ -56,6 +58,7 @@ function Home() {
           image={welder.image}
           phone={welder.phone}
           award={welder.award}
+          report={welder.report}
         />
       ))}
     </div>
