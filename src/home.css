@@ -2,14 +2,11 @@
   
 *{
     font-family: "Poppins", sans-serif;
-    overflow-x: hidden !important;
-   box-sizing:border-box;
+    overflow-x: hidden;
 }
 body{
     background-color: #000000;
-    overflow-x: hidden !important;
-  box-sizing:border-box;
-
+    overflow-x: hidden;
 }
 
 .card{
@@ -40,5 +37,21 @@ body{
     
 }
 
+.report{
+    position: relative;
+    left: 100px;
+    top: -15px;
+    color: red;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 
-
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
