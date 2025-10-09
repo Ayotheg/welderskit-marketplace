@@ -6,7 +6,7 @@ function WelderCard({ name, bio, image, phone, award, report }) {
     <div className="bg-black border-2 border-[#ffb000] rounded-3xl p-6 shadow-2xl shadow-[#ffb000]/20 hover:shadow-[#ffb000]/40 transition-all duration-300 mt-9">
       {/* Circular Image with Gradient Border */}
        <p className="text-center text-sm font-normal report px-5 text-red-500">
-         <a href="http://www.google.com">Report</a> 
+         <a href="https://forms.gle/stYNyU3ovzivCSLo7">Report</a> 
         </p>
       <div className="flex justify-center mb-5">
         <div className="relative">
