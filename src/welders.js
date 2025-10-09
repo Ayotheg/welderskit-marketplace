@@ -10,7 +10,7 @@ export const welders = [
     image: john,
     phone: "+2348101734037",
     award: "✅ Verified Welder",
-    report:"www.google.com"
+    report:"https://forms.gle/stYNyU3ovzivCSLo7"
   },
   {
     name: "Mr Soliu",
@@ -18,7 +18,7 @@ export const welders = [
     image: awo,
      phone: "+2348033227792",
      award: "🏅 Top Rated",
-     report:"report"
+     report:"https://forms.gle/stYNyU3ovzivCSLo7"
   },
   {
     name: "mr tejuosho",
@@ -26,7 +26,7 @@ export const welders = [
     image: ayo,
      phone: "+2348050399188",
       award: "✅ Verified Welder",
-      report:"report"
+      report:"https://forms.gle/stYNyU3ovzivCSLo7"
   },
   
 ]
