@@ -39,7 +39,7 @@ body{
 
 .report{
     position: relative;
-    left: 100px;
+    left: 90px;
     top: -15px;
     color: red;
     animation-name: blink;
